@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wanten</title>
+  
+  
+  <link href="https://www.wanten.org/atom.xml" rel="self"/>
+  
+  <link href="https://www.wanten.org/"/>
+  <updated>2021-07-29T04:17:58.871Z</updated>
+  <id>https://www.wanten.org/</id>
+  
+  <author>
+    <name>Wanten</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20210706</title>
+    <link href="https://www.wanten.org/2021/07/07/Consciousness/20210706/"/>
+    <id>https://www.wanten.org/2021/07/07/Consciousness/20210706/</id>
+    <published>2021-07-07T11:39:10.000Z</published>
+    <updated>2021-07-29T04:17:58.871Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>1417<br>还是把时间胶囊和意识流分开比较好，意识流并不是每个时间段都会记录，但时间胶囊便不一样了。</p></li><li><p>2351<br>闭门造车不好，但不去思考更不好<br>test</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1417&lt;br&gt;还是把时间胶囊和意识流分开比较好，意识流并不是每个时间段都会记录，但时间胶囊便不一样了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2351&lt;br&gt;闭门造车不好，但不去思考更不好&lt;br&gt;test&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>20210706</title>
+    <link href="https://www.wanten.org/2021/07/07/timeCapsule/20210706/"/>
+    <id>https://www.wanten.org/2021/07/07/timeCapsule/20210706/</id>
+    <published>2021-07-07T11:39:03.000Z</published>
+    <updated>2021-07-29T04:17:58.871Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>0901<br>起床洗漱</p></li><li><p>0910<br>早饭</p></li><li><p>0925<br>尝试在博客中添加 [时间胶囊] 功能</p></li><li><p>1230<br>查看各种hexo文档外加主题修改后，如期达成目的<br>日后，时间胶囊将记录我的日常行为，每当行为发生改变便记录时间，则某一个行为所消耗时间为相邻行为记录时间之差<br>本打算再添一[意识流]专栏，但显得有些臃肿，所以直接将意识流——当前的想法直接写到时间胶囊好了<br>或许这是最佳选择</p></li><li><p>1240<br>来到了姑姑家，拿几个西瓜回去</p></li><li><p>1320<br>回到家中，尝试添加 [意识流] 专栏</p></li><li><p>1518<br>写作</p></li><li><p>1604<br>地平线4</p></li><li><p>1646<br>休息</p></li><li><p>1720<br>开摩托去秀水</p></li><li><p>1735<br>取快递</p></li><li><p>1750<br>开摩托回家</p></li><li><p>1801<br>更换摩托车外壳</p></li><li><p>1952<br>晚饭</p></li><li><p>2020<br>洗澡</p></li><li><p>2033<br>洗衣服</p></li><li><p>2040<br>带小孩</p></li><li><p>2049<br>写作</p></li><li><p>2124<br>星际牛仔</p></li><li><p>2230<br>王者荣耀</p></li><li><p>2350<br>写作</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;0901&lt;br&gt;起床洗漱&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;0910&lt;br&gt;早饭&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;0925&lt;br&gt;尝试在博客中添加 [时间胶囊] 功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1230&lt;br&gt;查看各种hexo文档外加主题修改后，</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git清空历史记录</title>
+    <link href="https://www.wanten.org/2021/06/04/Dev/git%E6%B8%85%E7%A9%BA%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/"/>
+    <id>https://www.wanten.org/2021/06/04/Dev/git%E6%B8%85%E7%A9%BA%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-06-04T04:46:16.000Z</published>
+    <updated>2021-07-29T04:17:58.871Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p>切换到新的分支</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout --orphan latest_branch</span><br></pre></td></tr></table></figure></li><li><p>缓存所有文件（除了.gitignore中声明排除的）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add -A</span><br></pre></td></tr></table></figure></li><li><p>提交跟踪过的文件（Commit the changes）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -am &quot;commit message&quot;</span><br></pre></td></tr></table></figure></li><li><p>删除main分支（Delete the branch，原有的分支)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -D main</span><br></pre></td></tr></table></figure></li><li><p>重命名当前分支为main（Rename the current branch to main）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m main</span><br></pre></td></tr></table></figure></li><li><p>提交到远程main分支 （Finally, force update your repository）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -f origin main</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;切换到新的分支&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
+      
+    
+    
+    
+    <category term="待分类" scheme="https://www.wanten.org/categories/%E5%BE%85%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="git" scheme="https://www.wanten.org/tags/git/"/>
+    
+    <category term="github" scheme="https://www.wanten.org/tags/github/"/>
+    
+  </entry>
+  
+</feed>
